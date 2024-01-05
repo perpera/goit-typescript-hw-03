@@ -1,9 +1,9 @@
 abstract class House {
   protected door = false;
-  protected key: Key;
+  // protected key: Key;
   protected tenants: Person[] = [];
 
-  constructor(key: Key) {
+  constructor(protected key: Key) {
     this.key = key;
   }
 
